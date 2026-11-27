@@ -18,4 +18,5 @@ Use when planning or reporting verification of addon changes. All addon behavior
 - For caching changes, check reuse, expiration, invalidation, and cleanup.
 - For persistence changes, check write failures, overlapping saves, disconnects during initialization, and the supported shutdown behavior. Exercise every changed storage backend.
 - Check reload behavior when supported. Do not assume a clean startup proves reload safety.
+- When applying a change to a running server can leave stale hooks or other state, tell the user that a server restart may be required. If practical, provide the exact one-time server console command to run the necessary Lua, based on the actual changed identifiers and realm. Do not add cleanup code to the addon solely to make autorefresh work, and keep these instructions out of the README.
 - State which checks actually ran and what still requires an in-game client/server session.

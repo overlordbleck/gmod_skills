@@ -18,6 +18,6 @@ Use for entity validity, safe simplification, readiness, asynchronous callbacks,
 - Namespace hook and timer identifiers to avoid collisions with other addons.
 - Remove temporary hooks after their job is complete. Use periodic timers only for work that must recur.
 - After HTTP responses or timers, re-check any player, entity, or panel that the callback is about to use.
-- Consider initialization and cleanup during reloads when the addon is expected to support them.
+- Handle initialization and cleanup during reloads only when reload support is required. Do not add startup cleanup, compatibility scaffolding, or `hook.Remove` calls solely for autorefresh after a code change. If old state can remain in a running server, notify the user that a server restart may be required or provide an appropriate one-time server console command in the response.
 - Bound retries and use a delay appropriate to the failure. Define what happens when the retry budget is exhausted.
 - Remove pending callbacks after completion, timeout, cancellation, or relevant disconnection.
