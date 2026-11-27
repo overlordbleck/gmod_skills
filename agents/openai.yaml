@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garry's Mod Lua Addons"
+  short_description: "GLua addon structure, VGUI, and manual testing"
+  default_prompt: "Use $gmod-lua-addons to build or improve a Garry's Mod Lua addon."
