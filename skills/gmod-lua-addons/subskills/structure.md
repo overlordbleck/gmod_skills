@@ -24,7 +24,7 @@ Before editing, inspect the addon's entry point, realm boundaries, existing API,
 - Realm folder names organize code; they do not automatically control execution or distribution. The loader must enforce the intended realm.
 - Do not create empty realm folders/files or a recursive loading framework for a small addon.
 
-Preferred layout, showing representative files only. Create the folders and features the addon actually needs:
+Preferred implementation layout, showing representative files only. Create the folders and features the addon actually needs. This example is not README content; do not include it or an equivalent addon structure description in a README unless the user explicitly requests it:
 
 ```text
 lua/

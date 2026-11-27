@@ -15,6 +15,8 @@ The README should contain only the project title and the following subjects, in 
 
 Do not add separate installation guides, architecture explanations, manual verification sections, testing instructions, file-layout sections or directory trees, benchmarks, roadmaps, changelogs, contribution instructions, or other subjects unless the user explicitly requests an exception. Keep detailed development notes outside the README.
 
+Do not describe the addon's structure anywhere in the README, including within the summary or examples: no folder trees, file/folder inventories, or walkthroughs of how modules are organized. The structure subskill's layout examples guide implementation only; do not copy or adapt them into the README. A specific path needed to use a public API example is allowed, but it must not become a layout explanation. Include structure documentation only when the user explicitly asks for it.
+
 ## Derive documentation from the code
 
 - Inspect the entry points, public API definitions, relevant callers, dependency checks, and ConVar registrations before writing. Follow wrappers or computed definitions when needed to establish the actual behavior.
@@ -30,4 +32,4 @@ Do not add separate installation guides, architecture explanations, manual verif
 - Use short dependency lists, method tables, ConVar tables, and command/input tables instead of long prose.
 - Give each method or ConVar a brief description focused on what a consumer needs to know.
 - Keep examples small and avoid repeating the same explanation in the summary, tables, and examples.
-- Before finishing, check the two-paragraph summary limit, section scope, API accuracy, ConVar defaults, and command/input coverage against the codebase. Keep these authoring checks out of the README itself.
+- Before finishing, check the two-paragraph summary limit, section scope, API accuracy, ConVar defaults, and command/input coverage against the codebase. Remove any addon structure descriptions, directory trees, or file/folder inventories unless explicitly requested. Keep these authoring checks out of the README itself.

@@ -7,7 +7,7 @@ Use when planning or reporting verification of addon changes. All addon behavior
 - Do not create automated tests, test harnesses, or mock GMod environments for Garry's Mod Lua addons.
 - Test addon behavior manually in Garry's Mod, exercising the relevant client and server realms.
 - For loop changes, follow the [loop complexity review and testing guidance](performance.md#review-and-test-loop-complexity) to minimize repeated work and check performance as input sizes grow.
-- Provide manual testing steps for the changed behavior and report what was actually tested. If an in-game session is unavailable, state that manual testing remains outstanding.
+- Provide manual testing steps for the changed behavior and report what was actually tested. If an in-game session is unavailable, state that manual testing remains outstanding. Do not report manual testing steps in README.md.
 - Existing lint and format checks may still be used; they do not replace manual in-game testing.
 
 ## Verify the behavior that matters
