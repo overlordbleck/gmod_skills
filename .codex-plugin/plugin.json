@@ -1,8 +1,8 @@
 {
   "name": "gmod-lua-addons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Build and maintain Garry's Mod Lua addons with focused guidance for structure, VGUI, runtime safety, performance, and manual in-game testing.",
-  "skills": "./SKILL.md",
+  "skills": "./skills/",
   "interface": {
     "displayName": "Garry's Mod Lua Addons",
     "shortDescription": "GLua addon structure, VGUI, and manual testing",
