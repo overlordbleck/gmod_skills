@@ -17,4 +17,5 @@ Use the subskills relevant to the task. Apply explicit user instructions first, 
 | [Performance](subskills/performance.md) | Repeated work, caching, loop complexity, and performance measurements. |
 | [Persistence](subskills/persistence.md) | Persistent state, database contracts, periodic saves, transactions, and storage failures. |
 | [Documentation and diagnostics](subskills/documentation.md) | Comments, API documentation, configuration, logging, and error reporting. |
+| [Repository README](subskills/readme.md) | Concise project summaries, dependencies, public global methods, integration examples, and ConVar tables. |
 | [Manual testing](subskills/testing.md) | Manual in-game verification, relevant feature checks, and reporting untested behavior. Use for every addon change. |

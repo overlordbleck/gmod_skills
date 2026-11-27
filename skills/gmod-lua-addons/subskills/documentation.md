@@ -2,6 +2,8 @@
 
 Use for comments, API documentation, configuration explanations, logging, and error reporting. Use with the [addon guide](../gmod_skill.md).
 
+For repository README files, follow the [README subskill](readme.md), which limits their contents to a short summary, dependencies, public global methods, integration examples, and ConVars.
+
 ## Explain decisions and report useful failures
 
 - Comments should explain constraints, assumptions, unusual timing, or compatibility decisions.
