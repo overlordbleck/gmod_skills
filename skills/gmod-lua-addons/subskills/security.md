@@ -1,6 +1,6 @@
 # Garry's Mod Lua Security and Permissions
 
-Use for privileged actions and untrusted input from players, commands, files, or external services. Use with the [addon guide](../gmod_skill.md) and [networking subskill](networking.md).
+Use for privileged actions and untrusted input from players, commands, files, or external services. Use with the [addon guide](../SKILL.md) and [networking subskill](networking.md).
 
 ## Keep authority on the server
 

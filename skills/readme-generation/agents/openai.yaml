@@ -1,0 +1,6 @@
+interface:
+  display_name: "Garry's Mod Lua Addon: README"
+  short_description: "Generate repository READMEs only when explicitly invoked"
+  default_prompt: "Use $readme-generation to generate or update this repository's README.md from the current code."
+policy:
+  allow_implicit_invocation: false

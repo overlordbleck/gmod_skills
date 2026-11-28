@@ -1,6 +1,6 @@
 # Garry's Mod Lua Distribution and Dependencies
 
-Use for packaging addons, delivering Lua and assets, mounted content, and dependency availability. Use with the [addon guide](../gmod_skill.md) and [structure subskill](structure.md) for realm loading.
+Use for packaging addons, delivering Lua and assets, mounted content, and dependency availability. Use with the [addon guide](../SKILL.md) and [structure subskill](structure.md) for realm loading.
 
 ## Deliver the files the addon needs
 

@@ -1,6 +1,6 @@
 # Garry's Mod Lua Performance
 
-Use for repeated work, caching, loop complexity, and manual performance measurements. Use with the [addon guide](../gmod_skill.md).
+Use for repeated work, caching, loop complexity, and manual performance measurements. Use with the [addon guide](../SKILL.md).
 
 ## Optimize repeated work and bound caches
 

@@ -1,6 +1,6 @@
 # Garry's Mod Lua Hooks and Interoperability
 
-Use when registering hooks, exposing addon events, integrating another addon, or considering an override. Use with the [addon guide](../gmod_skill.md).
+Use when registering hooks, exposing addon events, integrating another addon, or considering an override. Use with the [addon guide](../SKILL.md).
 
 ## Respect hook contracts
 

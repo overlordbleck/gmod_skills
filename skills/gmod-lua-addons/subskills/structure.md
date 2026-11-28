@@ -1,6 +1,6 @@
 # Garry's Mod Lua Addon Structure
 
-Use this subskill for addon layout, realm separation, loading, API boundaries, and code organization when working with the [addon guide](../gmod_skill.md). For formatting and naming conventions, use the [formatting subskill](format.md).
+Use this subskill for addon layout, realm separation, loading, API boundaries, and code organization when working with the [addon guide](../SKILL.md). For formatting and naming conventions, use the [formatting subskill](format.md).
 
 Apply explicit user instructions first, then the target repository's requirements. Preserve an existing addon's structure unless a change is requested or needed for the feature. Use the following defaults for new addons.
 

@@ -1,8 +1,8 @@
 # Garry's Mod Lua Documentation and Diagnostics
 
-Use for comments, API documentation, configuration explanations, logging, and error reporting. Use with the [addon guide](../gmod_skill.md).
+Use for comments, API documentation, configuration explanations, logging, and error reporting. Use with the [addon guide](../SKILL.md).
 
-For repository README files, follow the [README subskill](readme.md), which limits their contents to a short summary, dependencies, public global methods, integration examples, ConVars, and a table of operational commands and user input. Exclude manual verification and file-layout sections.
+Leave repository README files unchanged unless the user explicitly invokes `$readme-generation` for the current task. General documentation work does not authorize README writes. For an explicitly invoked README task, follow the separate [README generation skill](../../readme-generation/SKILL.md) and its content rules.
 
 ## Explain decisions and report useful failures
 

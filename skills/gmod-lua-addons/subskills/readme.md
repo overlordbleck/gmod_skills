@@ -1,6 +1,6 @@
 # Repository README
 
-Use when writing or updating a repository's README. Use with the [addon guide](../gmod_skill.md). Keep explanations short, direct, and grounded in the current codebase.
+These content rules are used by the separate [README generation skill](../../readme-generation/SKILL.md), only when the user explicitly invokes `$readme-generation` for the current task. Loading this reference does not authorize README writes. Keep explanations short, direct, and grounded in the current codebase.
 
 ## Allowed content
 
@@ -19,6 +19,7 @@ Do not describe the addon's structure anywhere in the README, including within t
 
 ## Derive documentation from the code
 
+- Describe the addon as it exists in the current codebase, using present tense. Exclude previous behavior, development history, before/after comparisons, migration narratives, and change announcements unless the user explicitly requests historical documentation. Write "Supports X" rather than "Now supports X" or "Added support for X." Replace historical wording in an existing README with current facts; keep change summaries outside the README.
 - Inspect the entry points, public API definitions, relevant callers, dependency checks, and ConVar registrations before writing. Follow wrappers or computed definitions when needed to establish the actual behavior.
 - Inspect chat handlers, console command registrations, input bindings, and relevant UI handlers to identify operational inputs. Document their actual syntax, arguments, permissions, and behavior; do not invent commands or controls.
 - Preserve exact method names, argument order, `:` versus `.` usage, return behavior, and callback contracts. Do not invent API methods or list private helpers merely because they are accessible through a global table.

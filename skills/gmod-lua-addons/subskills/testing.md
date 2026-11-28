@@ -1,6 +1,6 @@
 # Garry's Mod Lua Manual Testing
 
-Use when planning or reporting verification of addon changes. All addon behavior testing is manual and performed in game. Use with the [addon guide](../gmod_skill.md).
+Use when planning or reporting verification of addon changes. All addon behavior testing is manual and performed in game. Use with the [addon guide](../SKILL.md).
 
 ## Test addons manually in game
 

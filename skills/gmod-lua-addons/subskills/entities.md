@@ -1,6 +1,6 @@
 # Garry's Mod Lua Player and Entity Lifecycle
 
-Use for player sessions, spawning, death, entity ownership, removal, and identity. Use with the [addon guide](../gmod_skill.md); use the [runtime subskill](runtime.md) for general validity and asynchronous cleanup rules.
+Use for player sessions, spawning, death, entity ownership, removal, and identity. Use with the [addon guide](../SKILL.md); use the [runtime subskill](runtime.md) for general validity and asynchronous cleanup rules.
 
 ## Match state to its lifetime
 

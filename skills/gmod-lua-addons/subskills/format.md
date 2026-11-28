@@ -1,6 +1,6 @@
 # Garry's Mod Lua Formatting
 
-Use this subskill for formatting, naming, syntax conventions, and lint/format configuration when working with the [addon guide](../gmod_skill.md).
+Use this subskill for formatting, naming, syntax conventions, and lint/format configuration when working with the [addon guide](../SKILL.md).
 
 Apply explicit user instructions first, then the target repository's requirements. Use these conventions as defaults for new code. Preserve established public API names and external data formats; do not rename them just to match a style preference.
 

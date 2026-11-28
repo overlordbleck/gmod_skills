@@ -1,6 +1,6 @@
 # Garry's Mod Lua Configuration
 
-Use for addon settings, defaults, validation, realm visibility, and applying configuration changes. Use with the [addon guide](../gmod_skill.md).
+Use for addon settings, defaults, validation, realm visibility, and applying configuration changes. Use with the [addon guide](../SKILL.md).
 
 ## Choose a clear source of truth
 

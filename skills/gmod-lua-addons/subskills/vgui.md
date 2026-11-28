@@ -1,6 +1,6 @@
 # Garry's Mod Lua VGUI
 
-Use when synthesizing or changing VGUI interfaces. Design panels around their function, identify their functional subpanels, and register those panels in separate client files. Use with the [addon guide](../gmod_skill.md), [structure subskill](structure.md), and [formatting subskill](format.md).
+Use when synthesizing or changing VGUI interfaces. Design panels around their function, identify their functional subpanels, and register those panels in separate client files. Use with the [addon guide](../SKILL.md), [structure subskill](structure.md), and [formatting subskill](format.md).
 
 ## Identify the panel's purpose and subfunctions
 

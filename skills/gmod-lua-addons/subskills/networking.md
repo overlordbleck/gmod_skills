@@ -1,6 +1,6 @@
 # Garry's Mod Lua Networking
 
-Use for message contracts, transport choices, client input validation, and external service failures. Use with the [addon guide](../gmod_skill.md).
+Use for message contracts, transport choices, client input validation, and external service failures. Use with the [addon guide](../SKILL.md).
 
 ## Keep networking proportional to the feature
 

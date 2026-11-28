@@ -1,6 +1,6 @@
 # Garry's Mod Lua Persistence
 
-Use for persistent state, database contracts, periodic saves, transactions, and failure handling. Use the [structure subskill](structure.md#storage-and-compatibility-boundaries) for storage module boundaries. Use with the [addon guide](../gmod_skill.md).
+Use for persistent state, database contracts, periodic saves, transactions, and failure handling. Use the [structure subskill](structure.md#storage-and-compatibility-boundaries) for storage module boundaries. Use with the [addon guide](../SKILL.md).
 
 ## Persistence and periodic work
 

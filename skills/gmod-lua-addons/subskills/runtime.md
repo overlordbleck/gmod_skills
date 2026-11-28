@@ -1,6 +1,6 @@
 # Garry's Mod Lua Runtime Safety and Lifecycle
 
-Use for entity validity, safe simplification, readiness, asynchronous callbacks, hooks, timers, and cleanup. Use with the [addon guide](../gmod_skill.md). For player and entity state transitions, use the [entity lifecycle subskill](entities.md); for hook return contracts and addon integration, use the [hooks subskill](hooks.md).
+Use for entity validity, safe simplification, readiness, asynchronous callbacks, hooks, timers, and cleanup. Use with the [addon guide](../SKILL.md). For player and entity state transitions, use the [entity lifecycle subskill](entities.md); for hook return contracts and addon integration, use the [hooks subskill](hooks.md).
 
 ## Preserve safety while simplifying
 
